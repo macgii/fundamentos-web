@@ -5,49 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <ul>
-    <li>
-        <a href="index.html">Home</a>
-    </li>
-    <li>
-        <a href="contato.html">Contato</a>
-    </li>
-  </ul>
+  <body class="fundo">
+    <header>
+      <ul class="menu">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </header>
 
-  <body>
-    <h1>Sobre a Giovana</h1>
+    <h1 class="center">Sobre a Giovana</h1>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-      provident sunt rem? Ab atque maxime culpa, excepturi recusandae molestiae
-      obcaecati nihil iusto aut! Eveniet facere, cupiditate consequuntur ullam
-      ratione neque.
-    </p>
+    <div class="container">
+      <div class="pad-5">
+        <p class="justfy">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+          provident sunt rem? Ab atque maxime culpa, excepturi recusandae
+          molestiae obcaecati nihil iusto aut! Eveniet facere, cupiditate
+          consequuntur ullam ratione neque.
+        </p>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quae,
-      ad blanditiis alias repellendus voluptatibus iure minima praesentium
-      incidunt minus voluptatem animi maiores mollitia vel voluptates pariatur
-      eveniet tempore nisi?
-    </p>
+        <p class="justfy">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          quae, ad blanditiis alias repellendus voluptatibus iure minima
+          praesentium incidunt minus voluptatem animi maiores mollitia vel
+          voluptates pariatur eveniet tempore nisi?
+        </p>
+      </div>
 
-    <img src="assets/img/pic.jpg" alt="Foto da criadora desta página" 
-    width="200"
-    height="350"/>
+      <div class="foto">
+        <img
+          class="border"
+          src="assets/img/pic.jpg"
+          alt="Foto da criadora desta página"
+          width="200"
+          height="350"
+        />
+      </div>
+    </div>
 
+    <h2 class="center">Minha música favorita:</h2>
 
-    <h2>Minha música favorita:</h2>
+    <div class="container margem-foot">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/mcdO9UP0hp8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/mcdO9UP0hp8"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+    <hr>
+    <footer>
+
+        <div class="container">
+            <a href="https://github.com/macgii" target="_blank">
+                <img class="tamanho" src="assets/img/github.png" alt="">
+            </a>
+            
+            <a href="https://www.linkedin.com/in/giovana-oliveira-dev/" target="_blank">
+                <img class="tamanho" src="assets/img/linkedin.png" alt="">
+            </a>
+            
+        </div>
+
+        <p class="center">
+            Feito com ❤️ por Giovana Oliveira 
+        </p>    
+    </footer>
+
   </body>
 </html>

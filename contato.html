@@ -1,57 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato</title>
-</head>
-<body>
-    <ul>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="fundo">
+    <header>
+      <ul class="menu">
         <li>
-            <a href="index.html">Home</a>
+          <a href="index.html">Home</a>
         </li>
 
         <li>
-            <a href="contato.html">Contato</a>
+          <a href="contato.html">Contato</a>
         </li>
-    </ul>
+      </ul>
+    </header>
 
-    <h1>Entre em contato comigo!</h1>
+    <h1 class="center">Entre em contato comigo!</h1>
 
-    <form>
+    <div class="container">
+      <div class="pad-5">
+        <form>
+          <label for="nome">Nome:</label><br />
+          <input type="text" id="nome" />
+          <br />
+          <br />
 
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
+          <label for="email">E-mail:</label><br />
+          <input type="email" id="email" />
+          <br />
+          <br />
 
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
+          <label for="assunto">Assunto:</label><br />
+          <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+          <br />
+          <br />
 
-        <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-        <br>
-        <br>
+          <button>Enviar</button>
+        </form>
 
-        <button>Enviar</button>
-    </form>
+      </div>
 
-    <h2>Endereço:</h2>
+      <div class="foto">
+        <div class="margem-lateral">
+          <p>Av. Paulista, 1450 - Bela Vista, São Paulo</p>
+  
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1680996880403!5m2!1spt-BR!2sbr!6m8!1m7!1sR5lLLILSU0CuSGk7MMSsoQ!2m2!1d-23.56247610702304!2d-46.65539971842063!3f35.41342491641416!4f1.0138136418851929!5f0.7820865974627469"
+            width="400"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          </div>
+      </div>
+    </div>
 
-    <p>Av. Paulista, 1450 - Bela Vista, São Paulo</p>
+    <hr>
+    <footer>
 
-    <iframe 
-    src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1680996880403!5m2!1spt-BR!2sbr!6m8!1m7!1sR5lLLILSU0CuSGk7MMSsoQ!2m2!1d-23.56247610702304!2d-46.65539971842063!3f35.41342491641416!4f1.0138136418851929!5f0.7820865974627469" 
-    width="400" 
-    height="350" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+        <div class="container">
+            <a href="https://github.com/macgii" target="_blank">
+                <img class="tamanho" src="assets/img/github.png" alt="">
+            </a>
+            
+            <a href="https://www.linkedin.com/in/giovana-oliveira-dev/" target="_blank">
+                <img class="tamanho" src="assets/img/linkedin.png" alt="">
+            </a>
+            
+        </div>
 
-</body>
-</html>
+        <p class="center">
+            Feito com ❤️ por Giovana Oliveira 
+        </p>    
+    </footer>
+    
+      </body>
+    </html>

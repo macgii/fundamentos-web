@@ -1,0 +1,69 @@
+/*Página index.html*/
+.center {
+  text-align: center;
+}
+
+.justfy{
+    text-align: justify;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+header > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.menu li {
+  padding: 1%;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+.menu li :hover {
+  color: rgb(240, 3, 3);
+  transition-delay: 350ms;
+}
+
+.pad-5 {
+  padding: 5%;
+}
+
+.foto {
+  padding-right: 5%;
+}
+
+.border{
+    border-radius: 3%;
+}
+
+.tamanho{
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+}
+
+.margem-foot{
+    margin-bottom: 40px;
+}
+
+.fundo{
+  background-color: bisque;
+}
+
+
+/*Página contato.html*/
+
+.margem-lateral{
+    margin-left: 80px;
+}
